@@ -1,0 +1,49 @@
+form{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+form input{
+    border-radius: 20px;
+    border: 1px solid black;
+    outline: none;
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+}
+
+.countriesList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    padding-left: 0;
+}
+
+.countriesList li{
+    font-size: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+.countryContainer{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.countryLanguagesList{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    font-size: 20px;
+    padding-left: 0;
+    margin-top: 18.720px;
+}
